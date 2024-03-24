@@ -1,0 +1,245 @@
+@font-face{
+    font-family: "Gora-Free";
+    src: url(fonts/Gora-Free.ttf);
+}
+@font-face{
+    font-weight: bold;
+    font-style: normal;
+    font-family: "OpenSans";
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+@font-face{
+    font-style: normal;
+    font-weight: lighter;
+    font-family: "OpenSans";
+    src: url(fonts/OpenSans-Light.ttf);
+}
+@font-face{
+    font-style: italic;
+    font-weight: lighter;
+    font-family: "OpenSans";
+    src: url(fonts/OpenSans-LightItalic.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.switchers{
+    text-decoration: none;
+}
+.switch{
+    display: flex;
+}
+.offers{
+    padding-left: 4px;
+    color: black;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+}
+.main{
+    color: #f89513;
+    text-decoration: underline;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+}
+.offer{
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 49px;
+    margin-top: 20px;
+}
+.all{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    flex-basis: 33.33%;
+    margin-top: 50px;
+    justify-content: center;
+}
+.headd{
+    margin-left: 5%;
+}
+.item{
+    flex-basis: 30%;
+    background-repeat: no-repeat;
+    width: 250px;
+    background-position: 100%;
+}
+.text{
+    width: 250px;
+    height: auto;
+    font-family: 'OpenSans';
+    font-weight: lighter;
+    font-style: normal;
+    margin-top: 25px;
+}
+.mid{
+    margin-left: 110px;
+}
+.text>h1{
+    width: 250px;
+    height: auto;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+}
+.fitnes{
+    background-image: url(img/fitnes.png);
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    border-radius: 3px;
+}
+.dietolog{
+    background-image: url(img/dietolog.png);
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    border-radius: 3px;
+}
+.yoga{
+    background-image: url(img/yoga.png);
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    border-radius: 3px;
+}
+.trx{
+    background-image: url(img/trx.png);
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    border-radius: 3px;
+}
+.crossfeat{
+    background-image: url(img/crossfeat.png);
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    border-radius: 3px;
+}
+.swimming{
+    background-image: url(img/swimming.png);
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    border-radius: 3px;
+}
+.fitnes::before{
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+    content: 'ФИТНЕС';
+    display: block;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dietolog::before{
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+    content: 'ДИЕТОЛОГ';
+    display: block;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yoga::before{
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+    content: 'ЙОГА';
+    display: block;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trx::before{
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+    content: 'ПЕТЛИ ТРХ';
+    display: block;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crossfeat::before{
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+    content: 'КРОССФИТ';
+    display: block;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swimming::before{
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+    content: 'БАССЕЙН';
+    display: block;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
